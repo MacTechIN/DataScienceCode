@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+
+    <style>
+        .maintitle{
+            margin-left: 20px;
+        }
+
+        .nameField{
+            float: left; width: 40%;
+            text-align:left;
+        }
+        .nickNameField{
+            float:left; width: 50%;
+            text-align:left;
+
+        }
+
+        .
+        .nameGuide{
+            font-size: small;
+            color: red;
+        }
+
+        input {
+            align-items: middle;
+            width: 200pt;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <div class="maintitle">
+        <h2>회원가입</h2>
+    </div>
+
+    <div class="nameField">
+
+        <h3>이름</h3>
+        <form action = "#">
+            <input type="text" id="name" name = "name" value = "이름을입력하세요" style="width: 300px; height: 35px;">
+        </form>
+        <p class="nameGuide">이름을 입력해주세요</p>
+    </div>
+    <div class="nickNameField">
+        <h3>별명</h3>
+        <form action = "#">
+            <input type="text" id="fname" name = "fname" value = "별명을입력하세요" style="width: 300px;height: 35px;">
+        </form>
+        <p class="nameGuide">별명을 입력해주세요</p>
+        
+    </div>
+
+    <div class="emailField">
+        <form action = "#">
+            <input type="text" id="email" name = "email" value = "e-mail" style="width: 100px; height: 35px;">
+             @
+             <select id="cars" name="cars" style="width: 100px; height: 35px;">
+                <option value="naver">네이버메일</option>
+                <option value="google">구글메일</option>
+                <option value="apple">애플메일</option>
+                <option value="daum">다음메일</option>
+                <option value="etc">직접입력</option>
+            </select> 
+            <input type="text" id="directemail" name = "directemail" value = "직접입력" style="width: 100px; height: 30px;">
+
+
+        </form> 
+    </div>
+
+   <div class="addressField">
+    <h3>주소</h3>
+    <input type="text" id="address1" name = "addressField1" value = "거주하는 시군을 표시하세요" style="width: 660px; height: 30px;">
+    <h3>상세주소(필수아님)</h3>
+    <input type="text" id="address2" name = "addressField2" value = "상세주소를 입력하세요" style="width: 660px; height: 30px;">
+    </div>
+
+    <div class="howtojoinArea">
+        <h3>가입경로 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp            추천인</h3> 
+        <select id="cars" name="cars" style="width: 200px; height: 35px;">
+            <option value="naver">네이버검색</option>
+            <option value="google">구글광고</option>
+            <option value="apple">친구추천</option>
+            <option value="daum">유튜브체널</option>
+            <option value="etc">기타등등</option>
+        </select> 
+
+
+    </div>
+
+    <div class="friendInputField"></div>
+
+    <input type="checkbox" id="agree" name="agree" value="agree">
+        <label for="agree">개인정보 수집 및 이용에 동의합니다.</label><br>
+    <input type = "button" value ="OK" >
+
+    </input>
+</body>
+</html>

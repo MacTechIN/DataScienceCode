@@ -1,0 +1,31 @@
+a = 3
+b = 4 
+
+a = b 
+
+print(a==b)
+
+print(a)
+print(b)
+
+
+print (a+b)
+print('Python Star ~!')
+print("Python Start !")
+
+print(''' python 
+      
+      
+      start''')
+
+print(""" Python
+       Start~!""")
+
+
+
+dicy_name = { "Name" : "Test"}
+
+
+
+a : int = 0
+ 
